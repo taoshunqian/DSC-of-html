@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			.apple {
+				width: 1200px;
+				height: 720px;
+				margin: 0px auto;
+				display: flex;
+				justify-content: space-around;
+			}
+			
+			.apple>div {
+				width: 590px;
+				height: 720px;
+				background: #0000FF;
+				position: relative;
+			}
+			.apple #apple_left>div:first-child{
+				width: 205px;
+				height: 510px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				background: #33AE75;
+			}
+			.apple #apple_left>div:first-child h2,.apple #apple_left>div:first-child h3{
+				margin-left: 20px;
+				color: #FFFFFF;
+			}
+			.apple #apple_left>div:first-child h3{
+				font-size: 14px;
+			}
+			.apple #apple_left>div:nth-child(2){
+				position: absolute;
+				left: 205px;
+				top: 0px;
+				width: 385px;
+				height: 68px;
+				background: #8EB7f1;
+				border-top: 3px solid #33AE75;
+			}
+			.apple #apple_left>div:nth-child(2) li{
+				float: right;
+				line-height: 68px;
+				margin-right: 10px;
+			}
+			.apple #apple_left>div:nth-child(3){
+				position: absolute;
+				left: 205px;
+				top: 71px;
+				background: #FFFFFF;
+				height: 440px;
+				width: 385px;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+			} 
+			.apple #apple_left>div:nth-child(3) li{
+				width: 49.5%;
+				height: 49.5%;
+				
+			}
+			.apple #apple_left>div:nth-child(3) li img{
+				transform: scale(0.7);
+				margin-top: -20px;
+				transition: transform 0.5s;
+			}
+			.apple #apple_left>div:nth-child(3) li img:hover{
+				transform: scale(0.8);
+				transition: transform 0.5s;
+			}
+			.apple #apple_left>div:nth-child(3) li>h3{
+				margin-top: -15px;
+			}
+			.apple #apple_left>div:nth-child(3) li>h3,.apple #apple_left>div:nth-child(3) li>h4{
+				margin-left: 20px;
+			}
+			.apple #apple_left>div:nth-child(3) li>h4{
+				font-size: 12px;
+				margin-top: 00px;
+				color: #00BB00;
+				margin-left: 30px;
+			}
+			.apple #apple_left>div:nth-child(4){
+				width: 590px;
+				height: 137px;
+				position: absolute;
+				left: 0px;
+				top: 510px;
+				
+			}
+			.apple #apple_left>div:nth-child(4) li{
+				width: 33.3%;
+				height: 137px;
+				float: left;
+			}
+			.apple #apple_left>div:nth-child(4) li>img{
+				transform: scale(0.5);
+				
+			}
+			.apple #apple_left>div:nth-child(4) li h4,.apple #apple_left>div:nth-child(4) li h5{
+				display: inline;
+			
+			}
+			.apple #apple_left>div:nth-child(4) li h5{
+				top: 20px;
+				font-size: 12px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="apple" id="apple">
+			<div id="apple_left">
+				<div id="1">
+					<h2>热门手机</h2>
+					<img src="images/1515953442183615359.jpg"/>
+					<h2>疯抢2018新款</h2>
+					<h3>iphone新款上市</h3>
+				</div>
+				<div id="2">
+					<li>运营商</li>
+					<li>手机通信</li>
+					<li>数码配件</li>
+					<li>智能设备</li>
+				</div>
+				<div id="3">
+					<li>
+						<h3>疯抢2018新款</h3>
+						<h4>疯抢2018新款</h4>
+						<img src="images/1515953444358204870.jpg"/>
+					</li>
+					<li>
+					    <h3>疯抢2018新款</h3>
+						<h4>疯抢2018新款</h4>
+						<img src="images/1515953444358204870.jpg"/></li>
+					<li>
+						<h3>疯抢2018新款</h3>
+						<h4>疯抢2018新款</h4>
+						<img src="images/1515953444358204870.jpg"/>
+					</li>
+					<li>
+					   <h3>疯抢2018新款</h3>
+						<h4>疯抢2018新款</h4>
+						<img src="images/1515953444358204870.jpg"/></li>
+				</div>
+				<div id="4">
+					<li>
+						<h4>三星爆款</h4>
+						<h5>疯抢2018</h5>
+						<img src="images/1515953442985715038.jpg"/>
+					</li>
+					<li>
+						<h4>三星爆款</h4>
+						<h5>疯抢2018</h5>
+						<img src="images/1515953442985715038.jpg"/>
+					</li>
+					<li>
+						<h4>三星爆款</h4>
+						<h5>疯抢2018</h5>
+						<img src="images/1515953442985715038.jpg"/>
+					</li>
+				</div>
+			</div>
+			<div id="apple_right"></div>
+		</div>
+		<script type="text/javascript">
+			apple_left
+			var oApple_left=document.getElementById("apple_left");
+			var oApple_leftularr=["1","2","3","4","5"]
+			for(var i=0;i<oApple_leftularr.length;i++){
+				var oApple_leftul
+			}
+		</script>
+	</body>
+
+</html>
